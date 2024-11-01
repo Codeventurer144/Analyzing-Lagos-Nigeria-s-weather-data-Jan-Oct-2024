@@ -17,9 +17,6 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 import html5lib
 from bs4 import BeautifulSoup
-```
-
-[![Go to Screenshot](https://via.placeholder.com/150x50.png?text=Go+to+Screenshot)](path/to/screenshot.png)
 
 import requests
 import pandas as pd
@@ -30,3 +27,6 @@ response = requests.get(url)
 soup = BeautifulSoup(response.content, 'html5lib')
 table = soup.find_all('table') 
 table
+```
+[![***Go to Screenshot***]([https://via.placeholder.com/150x50.png?text=Go+to+Screenshot](https://github.com/Codeventurer144/Analyzing-Lagos-Nigeria-s-weather-data-Jan-Oct-2024/blob/main/libraries.png))]([path/to/screenshot.png](https://github.com/Codeventurer144/Analyzing-Lagos-Nigeria-s-weather-data-Jan-Oct-2024/blob/main/libraries.png))
+

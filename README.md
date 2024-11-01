@@ -28,5 +28,5 @@ soup = BeautifulSoup(response.content, 'html5lib')
 table = soup.find_all('table') 
 table
 ```
-[![Go to Screenshot](https://via.placeholder.com/150x50/007bff/000000?text=Go+to+Screenshot&font-weight=bold)](libraries.png)
+[![Go to Screenshot to see the output⏫](https://via.placeholder.com/150x25/007bff/000000?text=Go+to+Screenshot&font-weight=bold)](libraries.png)
 
